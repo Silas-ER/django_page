@@ -1,0 +1,6 @@
+django-admin help - visualizar todos os subcomandos
+django-admin startproject setup . - criação da pasta de setup e config do projeto (o ponto é para concentrar numa pasta só e não ficar criando subpastas)
+
+no manage.py -> ctrl + shift + p -> python: select interpreter -> venv
+
+python manage.py runserver - run da manage.py

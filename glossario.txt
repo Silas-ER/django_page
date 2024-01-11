@@ -1,0 +1,3 @@
+settings.py - onde ficam a maioria das configurações do projeto e onde ajustamos a secret key
+
+.env - mudar no settings a secret key atraves da lib dotenv
