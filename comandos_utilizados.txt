@@ -4,3 +4,9 @@ django-admin startproject setup . - criação da pasta de setup e config do proj
 no manage.py -> ctrl + shift + p -> python: select interpreter -> venv
 
 python manage.py runserver - run da manage.py
+python manage.py help - subcomandos do manage.py
+python manage.py startapp galery - comando para iniciar um dos apps pertencentes ao projet, não confundir com startproject
+*precisam ser adicionados ao Installed apps no settings.py
+
+
+

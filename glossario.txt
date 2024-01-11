@@ -1,3 +1,11 @@
 settings.py - onde ficam a maioria das configurações do projeto e onde ajustamos a secret key
 
 .env - mudar no settings a secret key atraves da lib dotenv
+
+dentro do app criado (galeria) -> views.py - reponsaveis por exibir as infos
+depois de criada a função deve se adicionar o setup -> urls.py
+
+isolar as urls
+criar dentro de cada app uma urls.py
+
+adicionar ao settings.py -> templates - 'DIRS': [os.path.join(BASE_DIR, 'templates')],
