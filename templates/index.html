@@ -13,51 +13,23 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="bg-white collapse" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-dark">Sobre</h4>
-              <p class="text-muted">Adicione alguma informação sobre o álbum abaixo (autor ou qualquer outro background). Faça essas informações terem algumas frases, para a galera ter algumas informações que besliscar. Além disso, use link nelas para as redes sociais ou informações de contato.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-dark">Contato</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-dark">Me siga no Twitter</a></li>
-                <li><a href="#" class="text-dark">Curta no Facebook</a></li>
-                <li><a href="#" class="text-dark">Me envie um e-mail</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="navbar navbar-light bg-white shadow-sm">
         <div class="container d-flex justify-content-between">
           <a href="#"><img src="../static/logo.png" alt="Logo" width="200" height="60"></a>
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <nav>
+            <a href="#" style="padding-right: 10px;">Loja</a>
+            <a href="#" style="padding-right: 10px;">Suporte</a>
+            <a href="#" style="padding-right: 10px;">Solicitações</a>
+            <a href="#" style="padding-right: 10px;">Ramais</a>
+            <a href="#" class="btn btn-primary my-2">Login</a>
+          </nav>
         </div>
       </div>
     </header>
     
-
+    <!-- Main -->
     <main role="main" style="background-color: #1a275e; padding: 20px;">
-
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Exemplo de álbum</h1>
-          <p class="lead text-muted">Algo curto e direto, sobre a coleção abaixo (conteúdo, criador e etc). Faça com que seja curto e legal, mas não tão curto ao ponto de as pessoas pularem ele.</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Call-to-action principal</a>
-            <a href="#" class="btn btn-secondary my-2">Call-to-action secundário</a>
-          </p>
-        </div>
-      </section>
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-
+      <div class="container">
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
@@ -91,9 +63,19 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
 
+      <div class="container mt-4">
+        <div class="card">
+          <div class="card-header">
+            Aviso Importante
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque sit amet nisi cursus lacinia. Ut vitae fringilla risus.</p>
+          <small class="text-muted">9 mins</small>
+        </div>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
